@@ -34,3 +34,9 @@ p = &b;  //不行，因为p这个指针是const，不能改变
 *p = 9;  //可以，因为int* p不是const
 ```
 右定向（也就是指针），相当于指针（地址）是constant，但是指针所指的东西并不是constant
+
+e.g.2
+```cpp
+int a = 8;
+const int* const p = &a;  //这种前后都是const，咋都改不了
+```
