@@ -122,3 +122,4 @@ This is a link</a>
 显示结果：
 
 <a href = "https://www.baidu.com"><img src="https://user-images.githubusercontent.com/83827774/178895836-6ec93f6d-726a-4182-93ef-375e42b98cdf.png" width="20%" height="20%" /></a>
+> 注：此时点击图片可以进入百度界面
