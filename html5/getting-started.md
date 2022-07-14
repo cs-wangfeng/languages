@@ -196,10 +196,10 @@ HTML 标签可以拥有属性。属性提供了有关 HTML 元素的更多的信
 
 (1)居中排列标题：
 ```html
-<h1 align = "center">居中排列标题</h1>
+<h2 align = "center">居中排列标题</h2>
 ```
 展示：  
-<h1 align = "center">居中排列标题</h1>
+<h2 align = "center">居中排列标题</h2>
 
 
 
