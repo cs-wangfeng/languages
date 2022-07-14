@@ -62,17 +62,19 @@ HTML文档包含
 
 实例：
 
+#### HTML标题
+
 [标题](https://www.w3school.com.cn/tiy/t.asp?f=eg_html_headers)
-
-[段落](https://www.w3school.com.cn/tiy/t.asp?f=eg_html_paragraphs1)
-
-
 
 ```html
 <h1>标题1</h1>
 <h2>标题2</h2>
 <h3>标题3</h3>
 ```
+
+#### HTML段落
+
+[段落](https://www.w3school.com.cn/tiy/t.asp?f=eg_html_paragraphs1)
 
 ```html
 <p>这是段落。</p>
@@ -82,6 +84,8 @@ HTML文档包含
 <p>段落元素由 p 标签定义。</p> 
 ```
 
+#### HTML网络链接
+
 ```html
 <a href="http://www.w3school.com.cn">
 This is a link</a>
@@ -89,3 +93,10 @@ This is a link</a>
 
 > html使用`<a>...</a>`进行链接的表示，在`<a>`中的href(Hypertext REFerence)表示这个链接
 
+#### HTML图片链接
+
+```html
+<img src = "picture.png", width = "30%", height = "30%"/>
+```
+
+<a href = "图片"><img src="https://user-images.githubusercontent.com/83827774/178894842-5ce4d4f9-f3d8-41c5-be33-3ac80a2af16b.png" width="10%" height="10%" /></a>
