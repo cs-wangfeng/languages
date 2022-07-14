@@ -158,16 +158,15 @@ P.S. 开始标签常被称为开放标签（opening tag），结束标签常称�
 <p>This is a paragraph
 <p>This is a paragraph
 ```
-
-显示结果：
-<p>This is a paragraph
-<p>This is a paragraph
+上面的代码在这个.md中使用之后，后面的回车到下一行的时候，都会出现自动行首流出两个空格的问题，因此就不展示了
 
 ---
   
 ### 空元素
   
 没有内容的 HTML 元素被称为空元素。空元素是在开始标签中关闭的。  
+  
+`<br/>`的意思是Line Break Element  
   
 `<br>` 就是没有关闭标签的空元素（`<br>` 标签定义换行）。  
   
@@ -180,3 +179,29 @@ P.S. 开始标签常被称为开放标签（opening tag），结束标签常称�
 > 注：元素标签的大小写问题  
 HTML 标签对大小写不敏感：`<P>` 等同于 `<p>`。许多网站都使用大写的 HTML 标签。  
 万维网联盟（W3C）在 HTML 4 中推荐使用小写，而在未来 (X)HTML 版本中强制使用小写。
+  
+## HTML属性
+HTML 标签可以拥有属性。属性提供了有关 HTML 元素的更多的信息。
+
+名称/值对：name = value
+  
+属性总是在 HTML 元素的开始标签中规定。
+  
+例如：
+```html
+<a href="http://www.w3school.com.cn">This is a link</a>
+```
+
+**更多属性：**
+
+(1)居中排列标题：
+```html
+<h1 align = "center">居中排列标题</h1>
+```
+展示：  
+<h1 align = "center">居中排列标题</h1>
+
+
+
+
+
