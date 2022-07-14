@@ -195,11 +195,48 @@ HTML 标签可以拥有属性。属性提供了有关 HTML 元素的更多的信
 **更多属性：**
 
 (1)居中排列标题：
+
 ```html
 <h2 align = "center">居中排列标题</h2>
 ```
+
 展示：  
+
 <h2 align = "center">居中排列标题</h2>
+
+(2)文档主题背景颜色：  
+
+```html
+<body bgcolor = "green">
+绿色背景
+</body>
+```
+
+示例：
+
+代码：
+
+```html
+<!DOCTYPE html>
+<html>
+<body bgcolor = "green">
+<h1 align = "center">这是标题</h1>
+
+<p align = "center">这是段落</p>
+<p>这是段落</p>
+哈哈<br/>
+<br/>
+<a href = "https://www.baidu.com"><img src="https://user-images.githubusercontent.com/83827774/178894842-5ce4d4f9-f3d8-41c5-be33-3ac80a2af16b.png" width="10%" height="10%" /></a>
+
+
+</body>
+</html>
+```
+
+网页中展示：
+
+<img width="1080" alt="image" src="https://user-images.githubusercontent.com/83827774/178903741-eff433d9-1142-4259-89f6-c5238d335799.png">
+
 
 
 
