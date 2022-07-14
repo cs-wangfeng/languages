@@ -123,3 +123,6 @@ This is a link</a>
 
 <a href = "https://www.baidu.com"><img src="https://user-images.githubusercontent.com/83827774/178895836-6ec93f6d-726a-4182-93ef-375e42b98cdf.png" width="20%" height="20%" /></a>
 > 注：此时点击图片可以进入百度界面
+
+**图像的大小，既可以使用百分数比例，也可以使用数字直接进行大效地规定**
+
