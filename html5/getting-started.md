@@ -2,6 +2,10 @@
 
 ## 简介
 
+HTML5相对于HTML语言添加了很多新属性
+
+因此先学习HTML
+
 > 几种语言的关系：按照网友的话，HTML是骨架，CSS是皮肤，JS是肌肉🧐
 
 第一个HTML程序：
@@ -19,10 +23,6 @@
 </body>
 </html>
 ```
-
-HTML5相对于HTML语言添加了很多新属性
-
-因此先学习HTML
 
 HTML: Hyper Text Markup Language  
 称为超文本标记语言
