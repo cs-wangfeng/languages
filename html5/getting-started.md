@@ -98,5 +98,27 @@ This is a link</a>
 ```html
 <img src = "picture.png", width = "30%", height = "30%"/>
 ```
+示例1：
 
-<a href = "www.baidu.com"><img src="https://user-images.githubusercontent.com/83827774/178894842-5ce4d4f9-f3d8-41c5-be33-3ac80a2af16b.png" width="10%" height="10%" /></a>
+```html
+<img src="https://user-images.githubusercontent.com/83827774/178895836-6ec93f6d-726a-4182-93ef-375e42b98cdf.png" width="20%" height="20%" />
+```
+
+
+显示结果：
+
+<img src="https://user-images.githubusercontent.com/83827774/178895836-6ec93f6d-726a-4182-93ef-375e42b98cdf.png" width="20%" height="20%" />
+
+目前试验发现，最后面的`/>`的貌似没有`/`也可以
+
+示例2：
+
+图片超链接
+
+```html
+<a href = "https://www.baidu.com"><img src="https://user-images.githubusercontent.com/83827774/178895836-6ec93f6d-726a-4182-93ef-375e42b98cdf.png" width="20%" height="20%" /></a>
+```
+
+显示结果：
+
+<a href = "https://www.baidu.com"><img src="https://user-images.githubusercontent.com/83827774/178895836-6ec93f6d-726a-4182-93ef-375e42b98cdf.png" width="20%" height="20%" /></a>
