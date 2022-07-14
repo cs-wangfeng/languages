@@ -52,4 +52,40 @@ HTML文档包含
 - `<h1>`与`</h1>`之间表示标题
 - `<p>`与`</p>`之间表示为段落
 
+## [HTML编辑器](https://www.w3school.com.cn/html/html_editors.asp)
+
+使用记事本即可
+
+## 基本的HTML标签 
+
+### HTML标题/段落/链接
+
+实例：
+
+[标题](https://www.w3school.com.cn/tiy/t.asp?f=eg_html_headers)
+
+[段落](https://www.w3school.com.cn/tiy/t.asp?f=eg_html_paragraphs1)
+
+
+
+```html
+<h1>标题1</h1>
+<h2>标题2</h2>
+<h3>标题3</h3>
+```
+
+```html
+<p>这是段落。</p>
+<p>这是段落。</p>
+<p>这是段落。</p>
+
+<p>段落元素由 p 标签定义。</p> 
+```
+
+```html
+<a href="http://www.w3school.com.cn">
+This is a link</a>
+```
+
+> html使用`<a>...</a>`进行链接的表示，在`<a>`中的href(Hypertext REFerence)表示这个链接
 
