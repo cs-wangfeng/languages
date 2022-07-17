@@ -279,6 +279,11 @@ name='Bill "HelloWorld" Gates'
 ```
 ## HTML的style属性
 
+## HTML引用
+
+这两块写过了,没有commit,结果不小心点击了issues,全都丢失了,心态崩溃...
+
+## [HTML颜色表](https://www.w3school.com.cn/html/html_colors.asp) [HTML颜色名](https://www.w3school.com.cn/html/html_colornames.asp)
 
 
 
