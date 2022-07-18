@@ -326,12 +326,34 @@ This is a paragraph
 
 ## HTML链接
 
-#### 基本语法：
+### 基本语法：
 
 ```html
 <a href = "URL">Link text</a>
 ```
 **提示："链接文本" 不必一定是文本。图片或其他 HTML 元素都可以成为链接。**
+<br/>
+<br/>
 
+### HTML链接的target属性
 
+target用于定义链接文档在何处显示，例如下面例子中的_blank就是意思是让文档在新页面中显示
 
+```html
+<a href="http://www.w3school.com.cn/" target="_blank">Visit W3School!</a>
+```
+
+### HTML中的name属性
+
+name 属性规定锚（anchor）的名称。
+
+您可以使用 name 属性创建 HTML 页面中的书签。
+
+书签不会以任何特殊方式显示，它对读者是不可见的。
+
+当使用命名锚（named anchors）时，我们可以创建直接跳至该命名锚（比如页面中某个小节）的链接，这样使用者就无需不停地滚动页面来寻找他们需要的信息了。
+
+例子：
+<br/>
+<a name="tips">基本的注意事项 - 有用的提示</a><br/>
+<a href="#tips">有用的提示</a>
