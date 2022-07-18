@@ -315,10 +315,23 @@ p {margin-left: 20px}
 </head>
 ```
 
-- 内联模式
+- 内联模式<br/>
+当特殊的样式需要应用到个别元素时，就可以使用内联样式。使用内联样式的方法是在相关的标签中使用样式属性。样式属性可以包含任何 CSS 属性。以下实例显示出如何改变段落的颜色和左外边距。<br/>
+```html
+<p style="color: red; margin-left: 20px">
+This is a paragraph
+</p>
+```
 
 
+## HTML链接
 
+#### 基本语法：
+
+```html
+<a href = "URL">Link text</a>
+```
+**提示："链接文本" 不必一定是文本。图片或其他 HTML 元素都可以成为链接。**
 
 
 
