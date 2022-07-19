@@ -379,6 +379,97 @@ alt是人定义的，用于替换图片（图片加载不出的时候）
 
 `&nbsp;`在html语言中代表一个空格的占位符号  ，在构造表格占位的时候很有用  
 
-## HTML列表
+# [进阶 - HTML5](https://www.w3school.com.cn/html/html5_intro.asp)
+
+HTML5与原来的HTML的区别:  
+
+- HTML5 是最新的 HTML 标准。
+
+- HTML5 是专门为承载丰富的 web 内容而设计的，并且无需额外插件。
+
+- HTML5 拥有新的语义、图形以及多媒体元素。
+
+- HTML5 提供的新元素和新的 API 简化了 web 应用程序的搭建。
+
+- HTML5 是跨平台的，被设计为在不同类型的硬件（PC、平板、手机、电视机等等）之上运行。
+
+## HTML的列表元素
+
+到时候现看都赶趟，就是markdown中`- `这种的
+
+## HTML的块元素
+
+通过`<div>`和`<span>`将元素组合起来（成块）  
+
+### 区分区块元素 & 内联元素
+
+HTML `<div>` 元素是块级元素，它可用于组合其他 HTML 元素的容器。
+
+如果与 CSS 一同使用，`<div>` 元素可用于对大的内容块设置样式属性。
+
+例如：
+
+```html
+<div style="color:#0000FF">
+  <h3>这是一个在 div 元素中的标题。</h3>
+  <p>这是一个在 div 元素中的文本。</p>
+</div>
+```
+HTML中的 `<span>` 元素用于对文档中的行内元素进行组合。
+
+```html
+<p>我的母亲有 <span style="color:blue;font-weight:bold">蓝色</span> 的眼睛，我的父亲有 <span style="color:darkolivegreen;font-weight:bold">碧绿色</span> 的眼睛。</p>
+```
+
+当与 CSS 一同使用时，`<span>` 元素可用于为部分文本设置样式属性。
+  
+## HTML布局
+
+
+
+
+
+
+
+## HTML5的新内容
+
+声明文档类型:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+</head>
+
+<body>
+Content of the document......
+</body>
+
+</html>
+```
+
+注：HTML5默认字符编码为UTF-8
+
+HTML5 的一些最有趣的新特性：
+
+>新的语义元素，比如 `<header>`, `<footer>`, `<article>`, and `<section>`。  
+新的表单控件，比如数字、日期、时间、日历和滑块。  
+强大的图像支持（借由 `<canvas>` 和 `<svg>`）  
+强大的多媒体支持（借由 `<video>` 和 `<audio>`）   
+强大的新 API，比如用本地存储取代 cookie。  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
