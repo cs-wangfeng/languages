@@ -420,10 +420,42 @@ A CSS comment is placed inside the `<style>` element, and starts with `/*` and e
 ```
 这种的带 `a` 的表示方法是加了一个透明度参数，也就是括号里面最后一个参数0.5，意思是透明度为50%
 
+### 表示方式1 - rgb
 
+rgb(red, green, blue)
 
+[**rgb颜色混合器**](https://www.w3schools.com/css/css_colors_rgb.asp)  
 
+拓展方式：rgba
 
+rgba(red, green, blue, alpha)
+
+### 表示方式2 - hex
+
+相当于16进制的rgb表示方式  
+
+`#RRGGBB`
+
+* 简写方式：
+```html
+body {
+  background-color: #fc9; /* same as #ffcc99 */
+}
+
+h1 {
+  color: #f0f; /* same as #ff00ff */
+}
+
+p {
+  color: #b58; /* same as #bb5588 */
+}
+```
+
+### 表示方式3 - hsl
+
+hsl(hue, saturation, lightness)
+
+拓展方式：hsla
 
 
 
