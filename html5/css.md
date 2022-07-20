@@ -291,6 +291,46 @@ h1, h2, p {
 
 ![image](https://user-images.githubusercontent.com/83827774/179891874-0d74bd0c-81c0-454b-81ed-778c5aae6030.png)
 
+## How to add CSS
+
+### 3 ways to add CSS
+
+- External CSS
+- Internal CSS
+- Inline CSS
+
+### Externel CSS
+
+Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+
+`.css` 文件 `mystyle.css` ：
+
+```html
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+```
+注意这种 `20px` 的数字加单位的写法不能在二者之间加上空格，也就是说 `20 px` 是错误的
 
 
 
