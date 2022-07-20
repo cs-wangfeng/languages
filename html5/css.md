@@ -92,5 +92,33 @@ CSS选择器有以下五种：
 - Attribute selectors (select elements based on an attribute or attribute value)
 
 
+### CSS element selector
+```html
+p {
+  text-align: center;
+  color: red;
+}
+```
+
+### CSS id selector
+
+一个元素的 id 在一个页面中是唯一的，所以 id 选择器用于选择一个唯一的元素
+
+要选择具有特定 id 的元素，请编写一个井号 (#) 字符，后跟该元素的 id
+
+id选择器定义方法：
+
+```html
+#para1 {
+  text-align: center;
+  color: red;
+}
+```
+
+> 注：**An id name cannot start with a number!**
+
+
+
+
 
 
