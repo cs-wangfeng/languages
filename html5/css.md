@@ -332,6 +332,95 @@ h1 {
 ```
 注意这种 `20px` 的数字加单位的写法不能在二者之间加上空格，也就是说 `20 px` 是错误的
 
+### Internal CSS
+
+如果单个 HTML 页面具有独特的样式，则可以使用内部样式表。
+
+内部样式在 `<style>` 元素内定义，在 `<head>` 部分内。(就像之前的那个)
+
+举个例子：
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+### Inline CSS
+
+内联样式可用于为单个元素应用独特的样式。
+
+要使用内联样式，请将 style 属性添加到相关元素。 style 属性可以包含任何 CSS 属性。
+
+例如：
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+
+</body>
+</html>
+```
+
+### 注意事项：Multiple Style Sheets
+
+会按照最后面的一种定义方式的 style sheet 进行对于样式的约定
+
+
+## CSS comments
+
+A CSS comment is placed inside the `<style>` element, and starts with `/*` and ends with `*/`
+
+但是HTML的comment还是 `<!-- xxx -->`
+
+## CSS color
+
+区分背景的颜色以及文字的颜色
+
+背景的颜色：`<h1 style="background-color:DodgerBlue;">Hello World</h1>`
+
+文字的颜色：`<h1 style="color:Tomato;">Hello World</h1>`
+
+边缘的颜色：`<h1 style="border:2px solid Tomato;">Hello World</h1>`    
+效果示例：  
+![image](https://user-images.githubusercontent.com/83827774/180021896-6ec5e7fe-1584-4668-a577-4e2e4eb94574.png)
+
+### 颜色表示方式
+
+```html
+<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+<h1 style="background-color:#ff6347;">...</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+```
+三种表示番茄红的颜色方式
+
+```html
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+```
+这种的带 `a` 的表示方法是加了一个透明度参数，也就是括号里面最后一个参数0.5，意思是透明度为50%
+
+
 
 
 
