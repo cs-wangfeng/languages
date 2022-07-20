@@ -117,7 +117,36 @@ id选择器定义方法：
 
 > 注：**An id name cannot start with a number!**
 
+举例：
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#para1 {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1 id="para1">hhhh</h1>
+
+<p id="para1">Hello World!</p>
+<p>This paragraph is not affected by the style.</p>
+
+</body>
+</html>
+```
+效果：
+
+![image](https://user-images.githubusercontent.com/83827774/179884639-96b7c669-8b1d-4f91-a827-4be079058062.png)
+
+相对比的，如果没有这个id定义的话：
+
+![image](https://user-images.githubusercontent.com/83827774/179885062-7f52f38c-f6e1-4c2b-91b4-0892c16b3493.png)
 
 
 
