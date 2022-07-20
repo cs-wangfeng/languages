@@ -256,8 +256,40 @@ poo
 </html>
 ```
 
+### CSS Grouping selector
 
+将style定义相同的放在一起定义即可
 
+例如：
+
+```html
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+```
+
+可以修改成：
+
+```html
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
+```
+总结：
+
+![image](https://user-images.githubusercontent.com/83827774/179891874-0d74bd0c-81c0-454b-81ed-778c5aae6030.png)
 
 
 
