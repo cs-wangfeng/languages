@@ -148,6 +148,93 @@ id选择器定义方法：
 
 ![image](https://user-images.githubusercontent.com/83827774/179885062-7f52f38c-f6e1-4c2b-91b4-0892c16b3493.png)
 
+### CSS class selectors
+
+The class selector selects HTML elements with a specific class attribute.
+
+To select elements with a specific class, write a period (.) character, followed by the class name.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1 class="center">Red and center-aligned heading</h1>
+<p class="center">Red and center-aligned paragraph.</p> 
+
+</body>
+</html>
+```
+这样定义之后，很多类别的元素都可以属于这个类之中
+
+还可以定义特定的类别元素才能属于这个类
+
+（You can also specify that only specific HTML elements should be affected by a class.）
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.center {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1 class="center">This heading will not be affected</h1>
+<p class="center">This paragraph will be red and center-aligned.</p> 
+
+</body>
+</html>
+```
+
+**HTML 元素也可以引用多个类。**
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.center {
+  text-align: center;
+  color: red;
+}
+
+p.large {
+  font-size: 300%;
+}
+</style>
+</head>
+<body>
+
+<h1 class="center">This heading will not be affected</h1>
+<p class="center">This paragraph will be red and center-aligned.</p>
+<p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+
+</body>
+</html>
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
