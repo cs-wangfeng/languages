@@ -225,6 +225,36 @@ p.large {
 </html>
 ```
 
+注意：A class name cannot start with a number!
+
+### CSS Universial selectors
+
+`*`表示 selector 选择页面上的所有 HTML 元素
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  text-align: center;
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello world!</h1>
+
+<p>Every element on the page will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p>
+<br/>
+poo
+
+</body>
+</html>
+```
 
 
 
