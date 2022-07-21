@@ -849,7 +849,54 @@ h1 {
 ```
 显示效果：  
 
-<img src="https://user-images.githubusercontent.com/83827774/180157714-739d3fb3-6109-4fa1-805f-459a440740b6.png" width=30% />
+<img src="https://user-images.githubusercontent.com/83827774/180157714-739d3fb3-6109-4fa1-805f-459a440740b6.png" width=30%/>
+
+## text font
+
+`font-family` 属性应该包含几个字体名称作为“备用”系统，以确保浏览器/操作系统之间的最大兼容性。从您想要的字体开始，以通用系列结束（如果没有其他字体可用，让浏览器在通用系列中选择类似的字体）。字体名称应以逗号分隔。
+
+之所以使用逗号写出好多个字体，就是为了备用，因为有些浏览器不支持这些字体，就从前往后依次选择后面的备用字体
+
+举例：
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS font-family</h1>
+<p class="p1">This is a paragraph, shown in the Times New Roman font.</p>
+<p class="p2">This is a paragraph, shown in the Arial font.</p>
+<p class="p3">This is a paragraph, shown in the Lucida Console font.</p>
+
+</body>
+</html>
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
