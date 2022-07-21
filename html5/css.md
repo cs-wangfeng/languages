@@ -743,7 +743,80 @@ example for initial: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_
 
 <hr/>
 
+## CSS text spacing properties
 
+### text Identation  
+
+```html
+<head>
+<style>
+p {
+  text-indent: 50px;
+}
+</style>
+</head>
+```
+
+### letter spacing
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2 {
+  letter-spacing: 5px;
+}
+
+h3 {
+  letter-spacing: -2px;
+}
+</style>
+</head>
+<body>
+
+<h1>Using letter-spacing</h1>
+
+<h2>This is heading 1</h2>
+<h3>This is heading 2</h3>
+
+</body>
+</html>
+```
+
+### line Height
+
+```hmtl
+<head>
+<style>
+p.small {
+  line-height: 0.7;
+}
+
+p.big {
+  line-height: 1.8;
+}
+</style>
+</head>
+```
+
+### word spacing
+
+### White Space 
+
+white-space 属性指定如何处理元素内的空白
+
+关于white-space的一些具体属性值（property values）
+
+property|description 
+--|--
+normal|空白序列将折叠成单个空白。文本将在必要时换行。这是默认的  
+nowrap|空白序列将折叠成单个空白。文本永远不会换行到下一行。文本在同一行继续，直到遇到 `<br>` 标记
+pre|空白由浏览器保留。文本只会在换行符处换行。类似于 HTML 中的 `<pre>` 标签
+pre-line|空白序列将折叠成单个空白。文本将在必要时或者换行符处换行
+pre-wrap|空白由浏览器保留。文本将在必要时或者换行符处换行
+initial|...
+inherit|...
 
 
 
