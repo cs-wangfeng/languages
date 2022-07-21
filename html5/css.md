@@ -488,6 +488,39 @@ body {
 ```
 按照如下的顺序定义：`background-color`, `background-image`, `background-repeat`, `background-attachment`, `background-position`    
 是否缺少其中一个属性值并不重要，只要其他属性值按此顺序排列即可。  
+- background-origin  
+可以确定背景图片放置的位置  
+
+## CSS borders  
+
+shorthand:  
+```html
+p {
+  border: 5px solid red;
+}
+```
+or
+```html
+p {
+  border-left: 5px solid red;
+}
+```
+```html
+p {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+```
+`border-radius` 可以用于调节边框角的圆弧半径  
+
+## CSS margin & padding
+
+`margin` 用于控制某个元素四周的空白大小 - border外面  
+
+相对比的：  
+`padding` 是在border里面的空白大小  
+
+
 
 
 
