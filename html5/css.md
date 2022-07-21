@@ -589,6 +589,161 @@ p {
 形成效果：  
 ![image](https://user-images.githubusercontent.com/83827774/180141330-e880fa0e-fa54-402a-a296-0ecb18ffe665.png)
 
+## CSS text
+
+### text color
+
+color属性专指text的颜色：
+
+举例
+
+```html
+body {
+  background-color: lightgrey;
+  color: blue;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+}
+
+div {
+  background-color: blue;
+  color: white;
+}
+```
+
+### text alignment
+
+`text-align` is used to set the horizontal alignment of a text.
+
+![image](https://user-images.githubusercontent.com/83827774/180144763-666e02cb-5205-4eaa-9192-cac950b3d127.png)
+
+
+### text decoration
+_**（实际上是文本装饰线）**_
+
+#### text-decoration-line
+
+text-decoration-line 属性用于向文本添加装饰线。  
+
+示例：  
+```html
+h1 {
+  text-decoration: overline;
+}
+
+h2 {
+  text-decoration: line-through;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p.ex {
+  text-decoration: overline underline;
+}
+```
+`text-decoration-color` 这个属性是在定义**文本装饰线的颜色**  
+
+#### text-decoration-style
+
+定义文本装饰线的样式
+
+#### text-decoration-thickness
+定义文本装饰线的粗细
+
+#### text-decoration shorthand property
+
+The `text-decoration` property is a shorthand property for:
+
+- text-decoration-line (required)
+- text-decoration-color (optional)
+- text-decoration-style (optional)
+- text-decoration-thickness (optional)
+
+example:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  text-decoration: underline;
+}
+
+h2 {
+  text-decoration: underline red;
+}
+
+h3 {
+  text-decoration: underline red double;
+}
+
+p {
+  text-decoration: underline red double 5px;
+}
+</style>
+</head>
+<body>
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<p>A paragraph.</p>
+
+</body>
+</html>
+```
+
+**small tip:**  
+默认情况下，HTML 中的所有链接都带有下划线。有时您会看到链接的样式没有下划线，具体的实现方法如下：
+
+```html
+/*在定义中使用这样的样式：*/
+<head>
+<style>
+a {
+  text-decoration: none;
+}
+</style>
+</head>
+```
+
+## text transform  
+
+The text-transform property is used to specify uppercase and lowercase letters in a text.
+
+It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word:
+
+```html
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+```
+
+<hr/>
+
+## \*\*\*\*Initial and Inherit
+
+example for Inherit: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_inherit  
+
+example for initial: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_initial
+
+<hr/>
+
+
 
 
 
