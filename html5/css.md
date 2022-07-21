@@ -535,7 +535,7 @@ Padding - Shorthand Property
 
 ## CSS Box Model
 
-<img src="https://user-images.githubusercontent.com/83827774/180139746-bcc419c9-6a82-46d0-9b35-1125b25155a6.png" width=60%>
+<img src="https://user-images.githubusercontent.com/83827774/180139746-bcc419c9-6a82-46d0-9b35-1125b25155a6.png" width=60%/>
 
 ## CSS outline
 
@@ -828,9 +828,30 @@ h1 {
 效果图：  
 ![image](https://user-images.githubusercontent.com/83827774/180156529-0d7b4fa0-ccbd-4a0c-a5c3-c68894fe5c2c.png)
 
+※**可以有多种阴影：**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+</head>
+<body>
 
+<h1>Text-shadow effect!</h1>
 
+</body>
+</html>
+```
+显示效果：  
 
+<img src="https://user-images.githubusercontent.com/83827774/180157714-739d3fb3-6109-4fa1-805f-459a440740b6.png" width=30% />
+
+<p font-family="consolas" font-size=10px>abcdefg<p/>
 
 
 
