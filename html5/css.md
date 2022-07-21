@@ -457,6 +457,38 @@ hsl(hue, saturation, lightness)
 
 拓展方式：hsla
 
+## CSS background
+
+- background-color
+- background-image  
+```html
+p {
+  background-image: url("paper.gif");
+}
+```
+- background-repeat  
+表示图像是否重复以及图像位置的属性，详情：https://www.w3schools.com/cssref/pr_background-position.asp  
+- background-attachment  
+这个属性会指定背景是滚动（scroll）还是固定（fixed）  
+```html
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;/*或者是fixed*/
+}
+```
+类似这种定义方式，但是我看默认是scroll
+- background-shorthand  
+可以说是一种快速定义background属性的方法，例如：  
+```html
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+```
+按照如下的顺序定义：`background-color`, `background-image`, `background-repeat`, `background-attachment`, `background-position`    
+是否缺少其中一个属性值并不重要，只要其他属性值按此顺序排列即可。  
+
 
 
 
