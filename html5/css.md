@@ -891,11 +891,100 @@ This means that you should add a list of similar "backup fonts" in the font-fami
 </html>
 ```
 
+比较保险的几个字体：
+<ul>
+  <li>Arial (sans-serif)</li>
+  <li>Verdana (sans-serif)</li>
+  <li>Helvetica (sans-serif)</li>
+  <li>Tahoma (sans-serif)</li>
+  <li>Trebuchet MS (sans-serif)</li>
+  <li>Times New Roman (serif)</li>
+  <li>Georgia (serif)</li>
+  <li>Garamond (serif)</li>
+  <li>Courier New (monospace)</li>
+  <li>Brush Script MT (cursive)</li>
+</ul>
 
 
+## 字体的风格属性
 
+### font-style
 
+主要是调整为斜体
+```html
+p.normal {
+  font-style: normal;
+}
 
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+```
+
+### font-weight
+
+主要是调整字体的粗细
+```html
+<head>
+<style>
+p.normal {
+  font-weight: normal;
+}
+
+p.light {
+  font-weight: lighter;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900;
+}
+</style>
+</head>
+```
+
+### font-variant
+
+可以调整字体为 `small-caps`
+
+属性值：
+
+<img src="https://user-images.githubusercontent.com/83827774/180173707-854fbdb7-77a0-47da-9367-81c9edc1dd01.png" width=70%/>
+
+small-caps字体如下所示：
+
+![image](https://user-images.githubusercontent.com/83827774/180173835-906f41cd-e4f4-427e-ac1a-84f1ba47fbb7.png)
+
+## font-size
+
+字体大小除了 `px` 即pixel表示，还可以用单位 `em` 表示，`1em = 16px`
+
+还可以用百分数表示，也就是说字体相当于默认字体大小的百分之多少
+
+还可以用 `vw` 表示
+
+## google font
+
+使用如下的 `<link>` 引入谷歌字体:
+```html
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body {
+  font-family: "Sofia", sans-serif;
+}
+</style>
+</head>
+```
+
+> info about link tag: https://www.w3schools.com/tags/tag_link.asp
 
 
 
