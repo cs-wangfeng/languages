@@ -988,7 +988,7 @@ body {
 
 ## Font Shorthand
 
-`font shorthand` 的属性：   
+font shorthand的属性：   
 <ul>
 <li><code class="w3-codespan">font-style</code></li>
 <li><code class="w3-codespan">font-variant</code></li>
@@ -1011,6 +1011,13 @@ p.b {
 </style>
 </head>
 ```
+
+## [CSS Icon](https://www.w3schools.com/css/css_icons.asp)
+
+使用icon库进行插入图标的操作
+
+这个网站提供icon的css文件
+
 
 
 
