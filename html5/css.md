@@ -970,7 +970,7 @@ small-caps字体如下所示：
 
 还可以用 `vw` 表示
 
-## google font
+## [google font](https://www.w3schools.com/css/css_font_google.asp)
 
 使用如下的 `<link>` 引入谷歌字体:
 ```html
@@ -986,8 +986,31 @@ body {
 
 > info about link tag: https://www.w3schools.com/tags/tag_link.asp
 
+## Font Shorthand
 
+`font shorthand` 的属性：   
+<ul>
+<li><code class="w3-codespan">font-style</code></li>
+<li><code class="w3-codespan">font-variant</code></li>
+<li><code class="w3-codespan">font-weight</code></li>
+<li><code class="w3-codespan">font-size/line-height</code></li>
+<li><code class="w3-codespan">font-family</code></li>
+</ul>
 
+使用font shorthand举例：  
+```html
+<head>
+<style>
+p.a {
+  font: 20px Arial, sans-serif;
+}
+
+p.b {
+  font: italic bold 12px/30px Georgia, serif;
+}
+</style>
+</head>
+```
 
 
 
