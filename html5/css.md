@@ -857,6 +857,10 @@ h1 {
 
 之所以使用逗号写出好多个字体，就是为了备用，因为有些浏览器不支持这些字体，就从前往后依次选择后面的备用字体
 
+> However, there are no 100% completely web safe fonts. There is always a chance that a font is not found or is not installed properly.<br/>
+Therefore, it is very important to always use fallback fonts.<br/>
+This means that you should add a list of similar "backup fonts" in the font-family property. If the first font does not work, the browser will try the next one, and the next one, and so on. Always end the list with a generic font family name.
+
 举例：
 ```html
 <!DOCTYPE html>
