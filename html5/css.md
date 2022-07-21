@@ -818,7 +818,15 @@ pre-wrap|空白由浏览器保留。文本将在必要时或者换行符处换�
 initial|...
 inherit|...
 
+## text shadow
 
+```html
+h1 {
+  text-shadow: 2px 2px 5px red; /*水平偏移，垂直偏移，模糊效果，阴影颜色*/
+}
+```
+效果图：  
+![image](https://user-images.githubusercontent.com/83827774/180156529-0d7b4fa0-ccbd-4a0c-a5c3-c68894fe5c2c.png)
 
 
 
