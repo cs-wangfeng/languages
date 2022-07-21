@@ -520,6 +520,78 @@ p {
 相对比的：  
 `padding` 是在border里面的空白大小  
 
+CSS has properties for specifying the padding for each side of an element:
+
+- padding-top
+- padding-right
+- padding-bottom
+- padding-left
+
+Padding - Shorthand Property  
+- padding-top
+- padding-right
+- padding-bottom
+- padding-left
+
+## CSS Box Model
+
+<img src="https://user-images.githubusercontent.com/83827774/180139746-bcc419c9-6a82-46d0-9b35-1125b25155a6.png" width=60%>
+
+## CSS outline
+
+outline properties:
+- outline-style:  
+具体style可见：https://www.w3schools.com/css/css_outline.asp  
+举例：
+```html
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+```
+- outline-color
+- outline-width
+- outline-offset
+- outline(shorthand)    
+The outline property is a shorthand property for setting the following individual outline properties:  
+  - outline-width  
+  - outline-style (required)  
+  - outline-color   
+- outline offset  
+outline-offset 属性在轮廓和元素的边缘/边框之间添加空间。元素与其轮廓之间的空间是透明的。  
+example:  
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 5px;
+}
+</style>
+</head>
+<body>
+
+<h2>The outline-offset Property</h2>
+
+<p>This paragraph has an outline 15px outside the border edge.</p>
+
+</body>
+</html>
+```
+形成效果：  
+![image](https://user-images.githubusercontent.com/83827774/180141330-e880fa0e-fa54-402a-a296-0ecb18ffe665.png)
+
+
+
+
 
 
 
